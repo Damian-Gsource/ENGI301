@@ -41,6 +41,7 @@ Error conditions:
   - Invalid number   --> Program should exit
 --------------------------------------------------------------------------
 """
+import builtins
 import operator
 # ------------------------------------------------------------------------
 # Constants
@@ -53,11 +54,17 @@ operators = {
     "+" : operator.add,
     "-" : operator.sub,
     "*" : operator.mul,
-    "/" : operator.truediv
+    "/" : operator.truediv,
+    "<<": operator.lshift,
+    ">>": operator.rshift,
+    "%" : operator.mod,
+    "^" : operator.pow 
+    
 }
 # ------------------------------------------------------------------------
 # Functions
 # ------------------------------------------------------------------------
+from builtins import input
 def get_user_input():
     """Get input from the user:  two numbers and operator."""
     
@@ -68,7 +75,8 @@ def get_user_input():
     try:
         in1 = float(input("Enter first number:  "))
         in2 = float(input("Enter second number: "))
-        op  = input("Enter operator (+, -, *, /): ")
+        op  = input("Enter operator (+, -, *, /, <<, >>, %, ^): ")
+    
     except ValueError:
         print("Input not a valid number.")
     return (in1, in2, op)
@@ -83,6 +91,9 @@ if __name__ == "__main__":
         # Get user input
         (in1, in2, op) = get_user_input()
         
+        if (op == "<<") or (op == ">>"):
+            in1 = int(in1)
+            in2 = int(in2)
         # Check if either of the inputs is not valid
         if (in1 is None) or (in2 is None):
             break
