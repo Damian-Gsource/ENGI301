@@ -1,0 +1,21 @@
+Partlist exported from C:/Users/gonza/Dropbox/My PC (DESKTOP-AGAG9QN)/Downloads/DamianGonzalez.sch at 5/3/2022 11:25 PM
+
+Part Value               Device              Package              Description                                    AVAILABILITY COMMENT  DESCRIPTION MF    MP   PACKAGE PRICE PURCHASE-URL
+B1   ARDUINO_MEGA_R3FULL ARDUINO_MEGA_R3FULL ARDUINO_MEGA_NO_SILK Arduino Mega R3                                                                                                       
+FUD1 FIDUCIAL            FIDUCIAL            FIDUCIAL_40MIL                                                                                                                             
+FUD2 FIDUCIAL            FIDUCIAL            FIDUCIAL_40MIL                                                                                                                             
+FUD3 FIDUCIAL            FIDUCIAL            FIDUCIAL_40MIL                                                                                                                             
+J1   292303-1            292303-1            TE_292303-1          CONN USB RECEPT R/A TYPE A 4POS Check prices   In Stock     292303-1  Conn        Data  USB  Recept  2.0   4 Pos      
+J2                       PINHD-1X2           H1X2-2.54            2-pin 100 mil header                                                                                                  
+JP1                      PINHD-1X4           H1X4-2.54            PIN HEADER                                                                                                            
+JP2                      PINHD-1X4           H1X4-2.54            PIN HEADER                                                                                                            
+JP3                      PINHD-1X3           H1X3-2.54            PIN HEADER                                                                                                            
+MGT1 MOUNTING_HOLE       MOUNTING_HOLE       MOUNTING_HOLE        Chassis Mounting Hole w/GND connection ability                                                                        
+MGT2 MOUNTING_HOLE       MOUNTING_HOLE       MOUNTING_HOLE        Chassis Mounting Hole w/GND connection ability                                                                        
+MGT3 MOUNTING_HOLE       MOUNTING_HOLE       MOUNTING_HOLE        Chassis Mounting Hole w/GND connection ability                                                                        
+MGT4 MOUNTING_HOLE       MOUNTING_HOLE       MOUNTING_HOLE        Chassis Mounting Hole w/GND connection ability                                                                        
+MGT5 MOUNTING_HOLE       MOUNTING_HOLE       MOUNTING_HOLE        Chassis Mounting Hole w/GND connection ability                                                                        
+MGT6 MOUNTING_HOLE       MOUNTING_HOLE       MOUNTING_HOLE        Chassis Mounting Hole w/GND connection ability                                                                        
+MGT7 MOUNTING_HOLE       MOUNTING_HOLE       MOUNTING_HOLE        Chassis Mounting Hole w/GND connection ability                                                                        
+MGT8 MOUNTING_HOLE       MOUNTING_HOLE       MOUNTING_HOLE        Chassis Mounting Hole w/GND connection ability                                                                        
+U1   POCKETBEAGLE        POCKETBEAGLE        POCKETBEAGLE                                                                                                                               
